@@ -9,9 +9,9 @@ int main(void)
 {
 	int i = 0;
 
-	char f[27] = "abcdefghijklm";
+	char f[28] = "abcdefghijklm";
 
-	char s[] = "nopqrstuvwxyz";
+	char s[] = "nopqrstuvwxyz\n";
 
 	strcat(f, s);
 	while (f[i] != '\0')
