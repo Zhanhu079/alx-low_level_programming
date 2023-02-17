@@ -12,7 +12,7 @@ int main(void)
 
 	char f[60] = "abcdefghijklm";
 
-	char s[] = "nopqrstuvwxyz\n";
+	char s[] = "nopqrstuvwxyzi";
 
 	strcat(f, s);
 	while (f[i] != '\0')
@@ -27,5 +27,9 @@ int main(void)
 		putchar(toupper(f[i]));
 		i++;
 	}
+
+	char l[] = "\n";
+
+	strcat(f, l);
 	return (0);
 }
