@@ -18,7 +18,7 @@ int main(void)
 
 	while (i < 6)
 	{
-		putchar(i + '0');
+		putchar(i + 'a');
 		i++;
 	}
 	putchar('\n');
