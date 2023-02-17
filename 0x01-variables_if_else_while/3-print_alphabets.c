@@ -27,9 +27,6 @@ int main(void)
 		putchar(toupper(f[i]));
 		i++;
 	}
-
-	char l[] = "\n";
-
-	strcat(f, l);
+	putchar('\n');
 	return (0);
 }
