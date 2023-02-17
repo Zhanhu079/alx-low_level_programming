@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
+#include <string.h>
 /**
  * main - Entry
  * Return: Always 0
@@ -8,11 +9,15 @@ int main(void)
 {
 	int i = 0;
 
-	char str[24] = "abcdefghijklmnopqrstuvwxyz";
+	char f[24] = "abcdefghijklm";
 
-	while (str[i] != '\0')
+	char s[] = "nopqrstuvwxyz";
+
+	strcat(f, s);
+	while (f[i] != '\0')
 	{
-		putchar(str[i]);
+		putchar(f[i]);
 		i++;
 	}
+	return (0);
 }
