@@ -9,7 +9,7 @@ int main(void)
 {
 	int i = 0;
 
-	char f[24] = "abcdefghijklm";
+	char f[27] = "abcdefghijklm";
 
 	char s[] = "nopqrstuvwxyz";
 
