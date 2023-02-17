@@ -12,7 +12,7 @@ int main(void)
 
 	char f[60] = "abcdefghijklm";
 
-	char s[] = "nopqrstuvwxyzi";
+	char s[] = "nopqrstuvwxyz";
 
 	strcat(f, s);
 	while (f[i] != '\0')
